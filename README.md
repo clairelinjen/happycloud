@@ -15,7 +15,9 @@ Install Processing on your Raspberry Pi (if it is not already).
 
 Download cloud.py and the rain folder from this repository.
 
-Optional: edit `params = (('sign', 'libra'), ('day', 'today'),)` in cloud.py to change the astrological sign of the horoscope used in the script.
+Make a (free) account with MonkeyLearn in order to get an API key. Substitute your key in line 24 of cloud.py.
+
+Optional: edit line 17 in cloud.py to change the astrological sign of the horoscope used in the script.
 
 Edit the pi's rc.local file by entering
 ` sudo nano /etc/rc.local `
